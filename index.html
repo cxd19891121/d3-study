@@ -2,23 +2,46 @@
     <head>
         <title> d3-playground</title>
         <script src="https://d3js.org/d3.v5.min.js"/></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
         
     </head>
 
     <body>
-        <h1> d3 playground </h1>
+        <div class = 'nav'>
+            <a class = "nav-btn nav-btn-page1" href= "#page1">Bar</a>
+            <a class = "nav-btn nav-btn-page2" href= "#page2">Group</a>
+            <a class = "nav-btn nav-btn-page3" href= "#page3">Stack</a>
+            <a class = "nav-btn nav-btn-page4" href= "#page4">Demo</a>
+        </div>
+        <div class = "title">
+            <h1> D3 bar-chart </h1>
+        </div>
+        <div class = 'main'>
+            <div id ='page1' class='pages hidden'>
+                <svg class = "chart svg">  </svg>  
+            </div>
 
-        
-        <div class = "selection-test">
-            <h3> d3 selection</h3>
-            <p>some text for select 1</p>
-            <p>some text for select 2</p>
-            <p>some text for select 3</p>
-            <p>some text for select 4</p>
+            <div id = 'page2' class='pages hidden'>
+                <svg class = 'chart-group svg'>
+                </svg>
+            </div>
+
+            <div id = 'page3' class='pages hidden'>
+                <svg class = 'chart-stack svg'></svg>
+            </div>
+            <div id= 'page4' class='pages'>
+                <svg class = 'svg chart-demo'></svg>
+            </div>
+
+            <div class = "button-group">
+                    <a class = 'button button-update'> <span class='button-text'>update</span> </a>
+            </div>
+            
         </div>
 
-        
-        <script src = "./app.js"/>
+        <script src = "./app.js"></script>
     </body>
+</html>
 
     

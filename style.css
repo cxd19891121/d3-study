@@ -1,0 +1,100 @@
+body {
+    background-color: #243D4C;
+    color : #FBC953;
+}
+
+h1 {
+    color: #FC7F3A;
+    text-align: center;
+}
+.main{
+    background-color: wheat;
+    font: 1.2rem sans-serif;
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+}
+
+.svg {
+    background-color: #599B87;
+    color: whitesmoke;
+    margin-top: 0vh;
+}
+.svg .y-axis text{
+    text-anchor: end;
+}
+.svg text{
+    fill: whitesmoke;
+    font-style:sans-serif;
+    font-size: .8rem;
+    text-anchor: middle;
+}
+
+
+
+.button-group{
+    display:flex;
+    align-content: center;
+}
+
+.button {
+    width: 20vw;
+    margin: .5rem auto;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    border-radius:100px;
+    color: white;
+    background-color: #599B87;
+    text-align: center;
+
+}
+
+.button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.button:active{
+    transform: translate(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.4)
+}
+
+.nav{
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:3vh;
+    background-color:wheat;
+    justify-content: center;
+}
+
+.nav-btn{
+    width:10vw;
+    margin:0;
+    color:black;;
+    text-align: center;
+    text-decoration: none;
+   
+}
+.nav-btn:hover{
+    color: white;
+    background-color:#599B87;
+}
+.nav-btn:active{
+    color:white;
+    background-color:#599B87;
+}
+
+.active{
+    color:white;
+    background-color:#599B87;
+}
+
+.hidden{
+    display: none;
+}
+.title{
+    margin-top: 3vh;
+}
+

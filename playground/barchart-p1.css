@@ -1,0 +1,21 @@
+body {
+    background-color: #243D4C;
+    color : #FBC953;
+    margin: 1rem;
+}
+
+h1 {
+    color: #FC7F3A;
+    text-align: center;
+}
+.chart div {
+    font: 1.2rem sans-serif;
+    background-color: #599B87;
+    text-align: right;
+    padding: 1rem ;
+    color: whitesmoke;
+    margin:.5rem;
+}
+
+
+
