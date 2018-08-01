@@ -726,5 +726,6 @@ function getDemoMax(seriesDemo) {
 }
 
 function testAB(){
+    console.log('adfasdf')
     return 'aaaaaaa';
 }
