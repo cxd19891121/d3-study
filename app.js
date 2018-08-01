@@ -725,3 +725,6 @@ function getDemoMax(seriesDemo) {
     return max
 }
 
+function testAB(){
+    return 'aaa';
+}
